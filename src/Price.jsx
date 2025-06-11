@@ -5,12 +5,14 @@ let oldstyles = {
 let newStyles = {
     fontWeight:"bold",
 };
+
 let styles = {
 backgroundColor: "#282c34",
 height: "30px",
 borderBottomLeftRadius: "14px",
 borderBottomRightRadius: "14px",
 }
+
     return(
         <div style={styles}>
             <span style={oldstyles}>{oldPrice}</span>
